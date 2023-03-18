@@ -59,7 +59,7 @@ install_version() {
 
   ( 
     mkdir -p "$install_path"
-    install -m 755 "${ASDF_DOWNLOAD_PATH}/youtube-dl" "$install_path"
+    install -m 755 "${ASDF_DOWNLOAD_PATH}/youtube-dl" "$install_path" || fail "Installation failed"
     echo "$TOOL_NAME $version installation was successful!"
   ) || (
     rm -rf "$install_path"
