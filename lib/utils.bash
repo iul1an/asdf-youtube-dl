@@ -2,8 +2,8 @@
 
 set -euo pipefail
 
-GH_REPO="https://github.com/ytdl-org/youtube-dl"
-GH_RELEASES="https://api.github.com/repos/ytdl-org/youtube-dl/releases"
+GH_REPO="https://github.com/ytdl-org/ytdl-nightly"
+GH_RELEASES="https://api.github.com/repos/ytdl-org/ytdl-nightly/releases"
 TOOL_NAME="youtube-dl"
 TOOL_TEST="youtube-dl --help"
 
