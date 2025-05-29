@@ -30,7 +30,7 @@ youtube-dl:
 
 ```shell
 # Show all installable versions
-asdf list-all youtube-dl
+asdf list all youtube-dl
 
 # Install specific version
 asdf install youtube-dl latest
